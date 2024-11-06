@@ -1,0 +1,50 @@
+
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.home-welcome {
+    margin-left: 60px;
+    width: 500px;
+}
+
+.home-welcome h1 {
+    font-size: 56px;
+    color: #fff;
+}
+
+.text-color {
+    color: #F2220F;
+}
+
+.home-welcome p {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 2px;
+    margin-bottom: 40px;
+}
+
+.home-welcome button {
+    padding: 10px 20px;
+    background-color: #F2220F;
+    color: #fff;
+    border: none;
+
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.home-moto {
+    width: 800px;
+}
+
+.home-moto img {
+    width: 900px;
+    height: auto;
+}

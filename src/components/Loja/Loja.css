@@ -1,0 +1,40 @@
+
+
+.loja-container {
+    height: 100vh;
+    color: #fff;
+    background-color: #282828;
+}
+
+.loja-container h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 90px 0;
+}
+
+.loja-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.cards-info {
+    width: 300px;
+    height: 352px;
+}
+
+.cards-info img {
+    border: 1px solid #ffffffc9;
+    padding: 18px 30px;
+}
+
+.cards-info h3 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.cards-info p {
+    font-size: 16px;
+    text-align: justify;
+}

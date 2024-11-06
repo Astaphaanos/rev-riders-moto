@@ -1,0 +1,31 @@
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0D0D0D;
+    height: 12vh;
+}
+
+nav img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 50px;
+}
+
+nav ul li {
+    margin-left: 80px;
+    list-style: none;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;  
+}
+
+nav .material-symbols-outlined {
+    color: #fff;
+    cursor: pointer;
+    margin-left: 60px;
+}
