@@ -68,3 +68,63 @@
     box-shadow: 0 0 15px 5px rgba(255, 71, 58, 0.6);
 }
 
+@media (min-width: 375px) and (max-width: 812px) {
+    
+    .form-container h2{
+        font-size: 38px;
+    }
+
+    .form-container p{
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .form form input, .form form select{
+        width: 100%;
+    }
+
+    .form form button {
+        width: 100%;
+        font-size: 18px;
+    } 
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .form-container h2{
+        font-size: 40px;
+    }
+
+    .form-container p{
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .form form input, .form form select{
+        width: 140%;
+    }
+
+    .form form button {
+        width: 140%;
+        font-size: 18px;
+    } 
+}
+
+@media (min-width: 3840px) {
+    .form-container h2{
+        font-size: 80px;
+    }
+
+    .form-container p{
+        font-size: 40px;
+        width: 50%;
+    }
+
+    .form form input, .form form select{
+        width: 300%;
+    }
+
+    .form form button {
+        width: 200%;
+        font-size: 18px;
+    } 
+}

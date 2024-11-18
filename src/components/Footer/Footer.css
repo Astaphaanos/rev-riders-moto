@@ -76,3 +76,67 @@ ul li:hover {
     margin-left: 6px;
     font-weight: 600;
 }
+
+@media (min-width: 375px) and (max-width: 812px) {
+    .footer-container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .services-container, .links-container, .contatos-container{
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footer-container {
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);  
+        row-gap: 10px;
+        gap: 20px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 3840px) {
+    .footer-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-top: 3px solid red;
+    }
+
+    h3 {
+        font-size: 50px;
+    }
+
+    .sobre-container img {
+        width: 200px;
+    } 
+
+    .social-icons img {
+        width: 50px;
+    }
+
+    .services-container ul li,
+    .links-container ul li{
+        font-size: 30px;
+    }
+
+    .contatos-container .contatos h4 {
+        font-size: 38px;
+    }
+
+    .contatos-container .contatos p {
+        font-size: 30px;
+    }
+
+    .copyright-container {
+        font-size: 36px;
+        border-top: 3px solid #ffffffa8;
+    }
+}

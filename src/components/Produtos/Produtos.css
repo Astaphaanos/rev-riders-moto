@@ -92,3 +92,128 @@
 .btn button:hover {
     box-shadow: 0 0 15px 5px rgba(255, 71, 58, 0.6);
 }
+
+@media (min-width: 375px) and (max-width: 812px) {
+    .produtos-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .produtos-container h3 {
+        font-size: 18px;
+    }
+
+    .produtos-container h2 {
+        font-size: 32px;
+    }
+    
+    .produtos-card {
+        display: block;
+        padding: 0 30px;
+    }
+
+    .produtos {
+        width: 320px;
+        height: 460px;
+        margin-top: 20px;
+    }
+
+    .produtos img {
+        width: 200px;
+    }
+
+    .produtos h4 {
+        font-size: 24px;
+    }
+
+    .produtos p {
+        font-size: 14px;
+    }
+
+    .produtos .btn span {
+        font-size: 18px;
+    }
+
+    .produtos .btn button {
+        padding: 0 10px;
+    }
+
+    .produtos .btn button img {
+        width: 24px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .produtos-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .produtos-container h3 {
+        font-size: 20px;
+    }
+
+    .produtos-container h2 {
+        font-size: 36px;
+    }
+    
+    .produtos-card {
+        display: grid;
+    }
+
+    .produtos {
+        width: 320px;
+        height: 460px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .produtos-container {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 3840px) {
+    .produtos-container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .produtos-card {
+        display: grid;
+        gap: 30px;
+        row-gap: 30px;
+    }
+
+    .produtos {
+        width: 480px;
+        height: 580px;
+    }
+
+    .produtos img {
+        width: 300px;
+    }
+
+    .produtos h4 {
+        font-size: 30px;
+    }
+
+    .produtos p {
+        font-size: 18px;
+    }
+
+    .produtos .btn span {
+        font-size: 20px;
+    }
+
+    .produtos .btn button {
+        padding: 0 20px;
+    }
+
+    .produtos .btn button img {
+        width: 30px;
+    }
+}
