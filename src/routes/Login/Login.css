@@ -1,0 +1,98 @@
+
+.section-form {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.login-form h2 {
+    color: #F25C05;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.login-form {
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #282828;
+}
+
+.login-form span a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.login-form-container {
+    color: #fff;
+}
+
+.login-form-container .email-senha-form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.login-form-container .email-senha-form span {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.login-form-container .email-senha-form input {
+    padding: 10px;
+    border-bottom: 1px solid #ffffffbd;
+    background: none;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.forget-form {
+    display: flex;
+    align-items: center;
+}
+
+.forget-form p a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.forget-form p a:hover {
+    text-decoration: underline;
+}
+
+.forget-form label {
+    color: #fff;
+    margin-left: 50px;
+}
+
+.btn-form button {
+    background-color: #F25C05;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 30px;
+    width: 260px;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.casdastro-links p{
+    color: #fff;   
+}
+
+.casdastro-links p a {
+    margin-left: 10px;
+    color: #F25C05;
+}

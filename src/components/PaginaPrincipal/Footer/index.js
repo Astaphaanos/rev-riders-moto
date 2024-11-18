@@ -80,7 +80,7 @@ const Footer = () => {
       <div className="copyright-container">
         <p>
           © 2024 RevRiders. Made wit by
-          <a href="https://www.linkedin.com/in/anna-clara-amorim/">
+          <a href="https://www.linkedin.com/in/anna-clara-amorim/" target="-blank">
             Clara Amorim
           </a>
         </p>

@@ -1,23 +1,14 @@
-import Header from './components/Header';
-import Home from './components/Home';
-import Loja from './components/Loja';
-import Catalogo from './components/Catalogo';
-import Banner from './components/Banner';
-import Produtos from './components/Produtos';
-import Contato from './components/Contato';
-import Footer from './components/Footer';
+import { BrowserRouter as Router} from 'react-router-dom';
+import Header from './components/PaginaPrincipal/Header';  // Importe o Header
+import AppRoutes from './routes/AppRoutes';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Home/>
-      <Loja/>
-      <Catalogo/>
-      <Banner/>
-      <Produtos/>
-      <Contato/>
-      <Footer/>
+      <Router>
+        <Header/>
+        <AppRoutes />
+      </Router>
     </div>
   );
 }

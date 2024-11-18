@@ -8,7 +8,7 @@ const Home = () => {
                     <span className="text-color"> Harley-Davidson.</span>
                 </h1>
                 <p>Experimente a liberdade sobre duas rodas</p>
-                <button type='button'><a href="#contatos">Test Drive</a></button>
+                <button type='button'><a href="#comprar">Test Drive</a></button>
             </div>
 
             <div className='home-moto'>

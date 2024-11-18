@@ -13,6 +13,7 @@ nav img {
 
 nav ul {
     display: flex;
+    align-items: center;
     margin-right: 50px;
 }
 
@@ -33,8 +34,6 @@ nav ul li a:hover {
     color: #F25C05;
 }
 
-nav .material-symbols-outlined {
-    color: #fff;
-    cursor: pointer;
+nav span {
     margin-left: 60px;
 }

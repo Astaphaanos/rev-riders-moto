@@ -1,0 +1,83 @@
+
+.cadastro-section {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.cadastro-form-container {
+    width: 700px;
+    height: auto;
+    padding: 30px;
+}
+
+.cadastro-form-container span a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.cadastro-form-container h2 {
+    font-size: 40px;
+    color: #F25C05;
+}
+
+.cadastro-form-container h3,
+.cadastro-faturamento h3{
+    font-size: 16px;
+    color: #F25C05;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+.cadastro-dados-pessoais, .cadastro-faturamento {
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastro-dados-pessoais label,
+.cadastro-faturamento label {
+    color: #ffffffcc;
+    margin: 12px 0;
+    font-size: 16px;
+}
+
+.cadastro-dados-pessoais input,
+.cadastro-faturamento input {
+    background: none;
+    color: #fff;
+    padding: 12px;
+    border: 1px solid #ffffffb7;
+}
+
+.cadastro-faturamento p {
+    color: #ffffffb7;
+}
+
+.termos-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    color: #ffffffb7
+}
+
+.termos-container label input {
+    margin-right: 10px;
+}
+
+.cadastro-btn button {
+    background-color: #F25C05;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 30px;
+    width: 260px;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
