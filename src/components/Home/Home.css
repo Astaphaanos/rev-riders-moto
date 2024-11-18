@@ -18,7 +18,7 @@
 }
 
 .text-color {
-    color: #F2220F;
+    color: #F25C05;
 }
 
 .home-welcome p {
@@ -31,13 +31,22 @@
 
 .home-welcome button {
     padding: 10px 20px;
-    background-color: #F2220F;
-    color: #fff;
+    background-color: #F25C05;
     border: none;
 
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.home-welcome button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.home-welcome button:hover {
+    box-shadow: 0 0 15px 5px rgba(240, 63, 50, 0.6);
 }
 
 .home-moto {
@@ -47,4 +56,89 @@
 .home-moto img {
     width: 900px;
     height: auto;
+}
+
+@media (min-width: 375px) and (max-width: 812px) {
+    .home-container {
+        display: block;
+    }
+
+    .home-welcome {
+        width: 300px;
+        padding-right: 10px;
+    }
+
+    .home-welcome h1 {
+        font-size: 40px;
+    }
+
+    .home-welcome p {
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .home-moto img{
+        width: 420px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .home-container {
+        display: block;
+    }
+
+    .home-welcome {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .home-welcome h1 {
+        font-size: 50px;
+    }
+
+    .home-welcome p {
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .home-moto img{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1920px) {
+    .home-welcome {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 3840px) {
+    .home-welcome {
+        width: 50%;
+        padding: 20px;
+    }
+
+    .home-welcome h1 {
+        font-size: 80px;
+    }
+
+    .home-welcome p {
+        font-size: 30px;
+    }
+
+    .home-welcome button {
+        width: 200px;
+        height: 80px;
+        padding: 20px;
+        font-size: 26px;
+    }
+
+    .home-moto img {
+        width: 1400px;
+        padding-right: 20px;
+    }
+
+    
 }

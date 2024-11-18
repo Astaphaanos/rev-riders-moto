@@ -1,6 +1,6 @@
 
 .catalogo-container {
-    height: 100vh;
+    height: 170vh;
     width: 1280px;
     margin: 0 auto;
 }
@@ -59,7 +59,7 @@
 }
 
 .moto-title h3:hover {
-    color: #F2220F;
+    color: #F25C05;
     cursor: pointer;
 }
 
@@ -101,7 +101,7 @@
 }
 
 .moto-btn button {
-    background-color: #F2220F;
+    background-color: #F25C05;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -115,7 +115,137 @@
 }
 
 
+@media (min-width: 375px) and (max-width: 812px) {
+    .catalogo-container {
+        width: 100%;
+        height: 100%;
+    }
 
+    .catalogo-container h2 {
+        font-size: 30px;
+    }
+
+    .catalogo-container p {
+        font-size: 16px;
+        padding: 0 30px;
+    }
+
+    .catalogo-card {
+        display: block;
+    } 
+
+    .moto-card {
+        width: 300px;
+        height: 460px;
+        margin-bottom: 30px;
+    }
+
+    .moto-img img {
+        width: 300px;
+    }
+
+    .moto-title h3 {
+        font-size: 22px;
+    }
+
+    .moto-especificacoes{
+        margin-left: 30px;
+    }
+
+    .moto-btn {
+        padding-right: 10px;
+    }
+
+    .moto-btn .price span {
+        padding-left: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .catalogo-container {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .catalogo-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    } 
+
+    .moto-card {
+        width: 320px;
+        height: 480px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .catalogo-container {
+        height: 140vh;
+    }
+
+    .catalogo-container h2 {
+        margin-top: 60px;
+    }
+}
+
+@media (min-width: 3840px) {
+    .catalogo-container {
+        width: 2000px;
+        height: 80vh;
+    }
+
+    .catalogo-container h2 {
+        font-size: 60px;
+        padding-top: 40px;
+    }
+
+    .catalogo-container p {
+        font-size: 40x;
+    }
+
+
+    .catalogo-card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+
+    } 
+
+    .moto-card {
+        width: 540px;
+        height: 580px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .moto-img img {
+        width: 400px;
+    }
+
+    .moto-title h3 {
+        font-size: 36px;
+    }
+
+    .moto-especificacoes{
+        display: grid;
+        padding-left: 100px;
+        padding-top: 20px;
+    }
+
+    .moto-btn {
+        padding: 10px;    
+    }
+
+    .moto-btn .price {
+        margin-right: 60px;
+    }
+}
 
 
 

@@ -24,6 +24,15 @@ nav ul li {
     cursor: pointer;  
 }
 
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #F25C05;
+}
+
 nav .material-symbols-outlined {
     color: #fff;
     cursor: pointer;

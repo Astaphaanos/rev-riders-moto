@@ -2,7 +2,7 @@ import "./Catalogo.css";
 
 const Catalogo = () => {
   return (
-    <section className="catalogo-container">
+    <section className="catalogo-container" id='motos-catalogo'>
       <div className='catologo-intro'>
         <h2>O DNA de Moto</h2>
         <p>Explore os nossos modelos! Escolha o melhor do mundo das motos</p>

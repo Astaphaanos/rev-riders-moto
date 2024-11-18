@@ -1,0 +1,123 @@
+
+
+.banner-container {
+    background-color: #282828;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.banner-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-info h2 {
+    font-size: 50px;
+    color: #F25C05;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    width: 700px;
+    text-align: center;
+}
+
+.banner-info p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #ffffffb4;
+    margin-bottom: 40px;
+}
+
+.banner-info button {
+    padding: 10px 20px;
+    background-color: #F25C05;
+    border: none;
+
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.banner-info button:hover {
+    box-shadow: 0 0 15px 5px rgba(255, 71, 58, 0.6);
+}
+
+.banner-info button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner-img img {
+    width: 600px;
+}
+
+@media (min-width: 375px) and (max-width: 812px) {
+    .banner-container {
+        display: block;
+        width: 100%;
+        height: 80vh;
+    }
+
+    .banner-info h2 {
+        font-size: 30px;
+        width: 100%;
+        padding-right: 30px;
+    }
+
+    .banner-info button {
+        margin-right: 30px;
+    }
+
+    .banner-img img {
+        width: 360px;
+        margin-top: 70px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .banner-container {
+        display: block;
+        width: 100%;
+        height: 70vh;
+    }
+
+    .banner-info h2 {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .banner-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-img img {
+        width: 500px;
+        margin-top: 70px;
+    }
+}
+
+@media (min-width: 3840px) {
+    .banner-info h2 {
+        font-size: 80px;
+        width: 70%;
+    }
+
+    .banner-info p {
+        font-size: 38px;
+    }
+
+    .banner-info button {
+        font-size: 30px;
+        padding: 30px;
+    }
+
+    .banner-img img {
+        width: 1000px;
+    }
+}
