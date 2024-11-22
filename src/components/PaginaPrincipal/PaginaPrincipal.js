@@ -6,14 +6,14 @@ import Produtos from './Produtos';
 import Contato from './Contato';
 import Footer from './Footer';
 
-function MainPage() {
+function MainPage({ adicionarAoCarrinho }) {
   return (
     <>
       <Home />
       <Loja />
-      <Catalogo />
+      <Catalogo adicionarAoCarrinho={adicionarAoCarrinho}/>
       <Banner />
-      <Produtos />
+      <Produtos adicionarAoCarrinho={adicionarAoCarrinho}/>
       <Contato />
       <Footer />
     </>
