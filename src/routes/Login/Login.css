@@ -97,3 +97,19 @@
     margin-left: 10px;
     color: #F25C05;
 }
+
+@media (min-width: 375px) and (max-width: 812px) {
+    .section-form {
+        width: 100%;
+    }
+
+    .login-form {
+        width: 90%;
+        height: 600px;
+    }
+
+    .login-form  h2 {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+}

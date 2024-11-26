@@ -82,3 +82,12 @@
     cursor: pointer;
 }
 
+@media (min-width: 375px) and (max-width: 812px) {
+    .cadastro-form-container h2 {
+        font-size: 30px;
+    }
+    
+    .cadastro-form-container h3 {
+        font-size: 14px;
+    }
+}
