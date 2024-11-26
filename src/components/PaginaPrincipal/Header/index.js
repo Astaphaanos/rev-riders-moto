@@ -1,4 +1,4 @@
-import { FaUser, FaShoppingCart, FaTrash } from "react-icons/fa";
+import { FaUser, FaShoppingCart, FaTrash, FaBars } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import "./Header.css";
@@ -6,6 +6,7 @@ import "./Header.css";
 const Header = ({ carrinho, removerDoCarrinho, adicionarAoCarrinho }) => {
   const navigate = useNavigate();
   const [showCarrinho, setShowCarrinho] = useState(true);
+  const [dropdownVisible, setDropdownVisible] = useState(false); 
 
   // Função para aumentar a quantidade de um produto
   const aumentarQuantidade = (id) => {
@@ -21,7 +22,16 @@ const Header = ({ carrinho, removerDoCarrinho, adicionarAoCarrinho }) => {
     <header>
       <nav className="nav-header">
         <img src="/images/logo.png" alt="Logo do RevRiders"></img>
-        <ul>
+
+        {/* Botão dropdown para telas menores */}
+        <button
+          className="dropdown-button"
+          onClick={() => setDropdownVisible(!dropdownVisible)}
+        >
+          <FaBars/>
+        </button>
+
+        <ul className={`menu-list ${dropdownVisible ? "active" : ""}`}>
           <li>
             <a href="#motos-catalogo">Motos</a>
           </li>
@@ -34,6 +44,7 @@ const Header = ({ carrinho, removerDoCarrinho, adicionarAoCarrinho }) => {
           <li>
             <a href="#comprar">Comprar</a>
           </li>
+        </ul>
 
           <span
             onClick={() => navigate("/login")}
@@ -115,7 +126,6 @@ const Header = ({ carrinho, removerDoCarrinho, adicionarAoCarrinho }) => {
               onClick={() => setShowCarrinho(false)}
             ></div>
           )}
-        </ul>
       </nav>
     </header>
   );
