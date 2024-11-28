@@ -202,7 +202,7 @@ nav span {
   }
 
   /*BreakPoints*/
-@media (min-width: 375px) and (max-width: 812px){
+@media (min-width: 375px) and (max-width:812px){
   
   .menu-list {
     display: none;
@@ -248,14 +248,7 @@ nav span {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1180px) {
-  .carrinho-count {
-    top: 45px;
-    right: 95px;
-  }
-}
-
-@media (min-width: 820px) and (max-width: 1180px) {
+@media (min-width: 813px) and (max-width: 1180px) {
   .carrinho-count {
     top: 55px;
     right: 100px;
@@ -284,7 +277,7 @@ nav span {
 @media (min-width: 1280px) {
   .carrinho-count {
     top: 24px;
-    right: 190px;
+    right: 60px;
   }
 
   .sidebar-carrinho {
@@ -295,11 +288,17 @@ nav span {
 @media (min-width: 1920px) {
   .carrinho-count {
     top: 50px;
-    right: 320px;
+    right: 180px;
   }
 
   .sidebar-carrinho {
     width: 400px;
   }
+}
 
+@media (min-width: 3840px) {
+  .carrinho-count {
+    top: 120px;
+    right: 570px;
+  }
 }
