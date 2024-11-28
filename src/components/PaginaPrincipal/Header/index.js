@@ -5,7 +5,7 @@ import "./Header.css";
 
 const Header = ({ carrinho, removerDoCarrinho, adicionarAoCarrinho }) => {
   const navigate = useNavigate();
-  const [showCarrinho, setShowCarrinho] = useState(true);
+  const [showCarrinho, setShowCarrinho] = useState(false);
   const [dropdownVisible, setDropdownVisible] = useState(false); 
 
   // Função para aumentar a quantidade de um produto
