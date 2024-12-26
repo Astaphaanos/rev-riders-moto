@@ -75,10 +75,6 @@
     margin-right: 40px;
 }
 
-.btn button img {
-    width: 30px;
-}
-
 .btn button {
     background-color: #F25C05;
     color: #fff;
@@ -86,7 +82,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s, box-shadow 0.3s;
-    padding: 0 10px;
+    padding: 8px 20px;
 }
 
 .btn button:hover {

@@ -82,7 +82,13 @@ const Header = ({ carrinho, removerDoCarrinho, adicionarAoCarrinho }) => {
                     <img src={item.imagem} alt={item.nome} />
                     <div className="carrinho-info">
                       <h4>{item.nome}</h4>
-                      <p>R$ {item.preco * item.quantidade}</p>
+                      <p>{(
+                        item.preco * item.quantidade).toLocaleString
+                        ("pt-BR", {
+                          style: "currency",
+                          currency: "BRL"
+                        })}
+                        </p>
                     </div>
                   </div>
 

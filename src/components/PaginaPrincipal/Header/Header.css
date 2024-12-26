@@ -54,13 +54,14 @@ nav span {
   }
   
   .carrinho-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
     background-color: red;
     color: white;
     border-radius: 50%;
-    padding: 2px 6px;
-    position: absolute;
-    top: 20px;
-    right: 150px;
+    padding: 2px 8px;
     font-size: 0.8rem;
   }
   
@@ -134,8 +135,12 @@ nav span {
   margin: 10px 0;
 }
 
+.quantidade-btn {
+  display: flex;
+}
+
 .quantidade-btn button{
-  background-color: #282828; /* Azul para os botões */
+    background-color: #282828;
     color: white;
     border: none;
     padding: 6px 10px;
@@ -229,8 +234,8 @@ nav span {
   }
 
   .carrinho-count {
-    top: 30px;
-    right: 12px;
+    top: 40px;
+    right: 24px;
   }
 
   .sidebar-carrinho {
@@ -254,8 +259,8 @@ nav span {
   }
 
   .carrinho-count {
-    top: 55px;
-    right: 100px;
+    top: 60px;
+    right: 110px;
   }
 
   .menu-list {
@@ -284,8 +289,8 @@ nav span {
   }
 
   .carrinho-count {
-    top: 24px;
-    right: 60px;
+    top: 36px;
+    right: 62px;
   }
 
   .sidebar-carrinho {
@@ -296,7 +301,7 @@ nav span {
 @media (min-width: 1920px) {
   .carrinho-count {
     top: 50px;
-    right: 180px;
+    right: 190px;
   }
 
   .sidebar-carrinho {
@@ -306,7 +311,7 @@ nav span {
 
 @media (min-width: 3840px) {
   .carrinho-count {
-    top: 120px;
+    top: 130px;
     right: 570px;
   }
 }
