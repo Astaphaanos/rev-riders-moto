@@ -1,8 +1,10 @@
-body {
+body, html {
   margin: 0;
   padding: 0;
   background-color: #0D0D0D;
   box-sizing: border-box;
   width: 100%;
   font-family: "Poppins", serif;
+  overflow-x: hidden;
 }
+
