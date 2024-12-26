@@ -44,16 +44,26 @@
 @media (min-width: 375px) and (max-width: 812px) {
     
     .loja-container {
-        height: 170vh;
+        height: 180vh;
     }
 
     .loja-container h2 {
         font-size: 34px;
+        padding: 40px 0;
     }
 
     .loja-cards {
         display: block;
-        padding-left: 30px;
+    }
+
+    .cards-info {
+        width: 280px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .cards-info p {
+        margin-bottom: 80px;
     }
 }
 
@@ -72,6 +82,17 @@
         justify-content: center;
         align-items: center; 
     }
+
+    .cards-info {
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .cards-info p {
+        margin-bottom: 70px;
+    }
+
+
 }
 
 @media (min-width: 1920px) {

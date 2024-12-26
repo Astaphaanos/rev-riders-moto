@@ -25,7 +25,6 @@
     color: #fff;
     font-size: 18px;
     letter-spacing: 1px;
-    line-height: 2px;
     margin-bottom: 40px;
 }
 
@@ -69,7 +68,7 @@
     }
 
     .home-welcome h1 {
-        font-size: 40px;
+        font-size: 38px;
     }
 
     .home-welcome p {
@@ -93,7 +92,7 @@
     }
 
     .home-welcome h1 {
-        font-size: 50px;
+        font-size: 46px;
     }
 
     .home-welcome p {

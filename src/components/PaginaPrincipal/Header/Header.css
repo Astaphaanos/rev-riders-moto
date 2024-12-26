@@ -4,6 +4,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
+  width: 100%;
 }
 
 header nav {
@@ -74,6 +75,7 @@ nav span {
     padding: 20px;
     transition: right 0.3s ease-in-out;
     z-index: 1000;
+    overflow-y: auto;
   }
   
   .sidebar-carrinho h2 {
@@ -203,7 +205,10 @@ nav span {
 
   /*BreakPoints*/
 @media (min-width: 375px) and (max-width:812px){
-  
+  html, body {
+    overflow-x: hidden;
+  }
+
   .menu-list {
     display: none;
     flex-direction: column;
@@ -229,14 +234,9 @@ nav span {
   }
 
   .sidebar-carrinho {
-    right: 100%;
     width: 250px;
-    height: 100%;
-    transition: left 0.3s ease-in-out;
-  }
-
-  .sidebar-carrinho.aberto {
-    right: 0;
+    right: -300px;
+    transition: right 0.3s ease-in-out;
   }
   
   .carrinho-item img {
@@ -249,6 +249,10 @@ nav span {
 }
 
 @media (min-width: 813px) and (max-width: 1180px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
   .carrinho-count {
     top: 55px;
     right: 100px;
@@ -275,6 +279,10 @@ nav span {
 }
 
 @media (min-width: 1280px) {
+  html, body {
+    overflow-x: hidden; 
+  }
+
   .carrinho-count {
     top: 24px;
     right: 60px;

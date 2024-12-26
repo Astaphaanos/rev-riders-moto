@@ -68,6 +68,11 @@
         padding-right: 30px;
     }
 
+    .banner-info p {
+        
+        font-size: 16px;
+    }
+
     .banner-info button {
         margin-right: 30px;
     }
