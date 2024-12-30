@@ -2,7 +2,7 @@ import './Home.css';
 
 const Home = () => {
     return (
-        <section className='home-container'>
+        <section className='home-container' id='home'>
             <div className='home-welcome'>
                 <h1>A Potência e a Tradição das 
                     <span className="text-color"> Harley-Davidson.</span>

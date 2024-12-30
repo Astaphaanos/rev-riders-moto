@@ -9,15 +9,14 @@ const navigate = useNavigate();
   return (
     <section className="cadastro-section" id="cadastro">
       <form className="cadastro-form-container">
-        <span 
-        style={{ cursor: 'pointer', fontSize: '1rem', color: '#fff' }}
-        title="Carrinho de Compras" onClick={() => navigate('/login')}>
-            <FaArrowLeft/>
-            <a href="#Voltar">
-                Voltar
-            </a>
-        </span>
-        <h2>Faça seu Cadastro</h2>
+      <h2>
+          <span 
+          style={{ cursor: 'pointer', fontSize: '1rem', color: '#fff' }}
+          title="Carrinho de Compras" onClick={() => navigate('/login')}>
+              <a href="#Voltar"><FaArrowLeft/></a>
+          </span>
+          Faça seu Cadastro
+        </h2>
         <h3>Informe seus dados pessoais</h3>
 
         <div className="cadastro-dados-pessoais">

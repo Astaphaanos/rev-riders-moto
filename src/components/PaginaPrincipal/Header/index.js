@@ -7,6 +7,7 @@ const Header = ({ carrinho, removerDoCarrinho, adicionarAoCarrinho }) => {
   const navigate = useNavigate();
   const [showCarrinho, setShowCarrinho] = useState(false);
   const [dropdownVisible, setDropdownVisible] = useState(false); 
+  const [usuarioLogado] = useState(false);
 
   // Função para aumentar a quantidade de um produto
   const aumentarQuantidade = (id) => {
@@ -17,6 +18,16 @@ const Header = ({ carrinho, removerDoCarrinho, adicionarAoCarrinho }) => {
   const diminuirQuantidade = (id) => {
     removerDoCarrinho(id);
   };
+
+  // Finalizar a compra só se tiver logado
+  const handleFinalizarCompra = () => {
+    if (!usuarioLogado) {
+      alert('Você precisa estar logado para finalizar a compra!')
+      return;
+    }
+    alert('Compra finalizada com sucesso!');
+  }
+
 
   return (
     <header>
@@ -32,17 +43,20 @@ const Header = ({ carrinho, removerDoCarrinho, adicionarAoCarrinho }) => {
         </button>
 
         <ul className={`menu-list ${dropdownVisible ? "active" : ""}`}>
-          <li>
-            <a href="#motos-catalogo">Motos</a>
+        <li>
+            <a href="#home" onClick={() => navigate("/")}>Home</a>
           </li>
           <li>
-            <a href="#acessorios">Acessórios</a>
+            <a href="#motos-catalogo" onClick={() => navigate("/")}>Motos</a>
           </li>
           <li>
-            <a href="#contatos">Contatos</a>
+            <a href="#acessorios" onClick={() => navigate("/")}>Acessórios</a>
           </li>
           <li>
-            <a href="#comprar">Comprar</a>
+            <a href="#contatos" onClick={() => navigate("/")}>Contatos</a>
+          </li>
+          <li>
+            <a href="#comprar" onClick={() => navigate("/")}>Comprar</a>
           </li>
         </ul>
 
@@ -120,7 +134,7 @@ const Header = ({ carrinho, removerDoCarrinho, adicionarAoCarrinho }) => {
 
             {carrinho.length > 0 ? (
               <div className="finalizar-compra-btn">
-                <button type="button">Finalizar Compra</button>
+                <button type="button"  onClick={handleFinalizarCompra}>Finalizar Compra</button>
               </div>
             ) : null}
           </div>

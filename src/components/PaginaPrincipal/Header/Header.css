@@ -13,6 +13,7 @@ header nav {
     justify-content: space-evenly;
     align-items: center;
     background-color: #0D0D0D;
+    height: 14vh;
 }
 
 nav img {
@@ -231,8 +232,8 @@ nav span {
   }
 
   .carrinho-count {
-    top: 60px;
-    right: 24px;
+    top: 40px;
+    right: 46px;
   }
 
   .sidebar-carrinho {
@@ -253,7 +254,7 @@ nav span {
 @media (min-width: 813px) and (max-width: 1180px) {
 
   .carrinho-count {
-    top: 60px;
+    top: 64px;
     right: 110px;
   }
 
@@ -279,8 +280,8 @@ nav span {
 
 @media (min-width: 1280px) {
   .carrinho-count {
-    top: 60px;
-    right: 62px;
+    top: 30px;
+    right: 30px;
   }
 
   .sidebar-carrinho {
@@ -290,8 +291,8 @@ nav span {
 
 @media (min-width: 1920px) {
   .carrinho-count {
-    top: 60px;
-    right: 190px;
+    top: 50px;
+    right: 160px;
   }
 
   .sidebar-carrinho {

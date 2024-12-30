@@ -14,15 +14,15 @@
     padding: 30px;
 }
 
-.cadastro-form-container span a {
+.cadastro-form-container h2 span a {
     color: #fff;
     text-decoration: none;
-    margin-left: 10px;
 }
 
 .cadastro-form-container h2 {
     font-size: 40px;
     color: #F25C05;
+    padding-top: 40px;
 }
 
 .cadastro-form-container h3,
