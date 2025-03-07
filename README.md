@@ -8,7 +8,6 @@ Confira o projeto online: [Rev Riders Moto](https://rev-riders-moto.vercel.app/)
 - **React**: Biblioteca JavaScript para construção de interfaces.
 - **Vite**: Ferramenta de build rápida e moderna.
 - **React Router**: Para gerenciamento de rotas.
-- **Context API**: Para gerenciamento de estado global (ex: carrinho de compras).
 - **Autenticação de Formulários**: Implementada nativamente com React (useState, useEffect).
 - **CSS Modules**: Para estilização modularizada.
 - **Vercel**: Hospedagem e deploy do projeto.
